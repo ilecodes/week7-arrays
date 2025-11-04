@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EC884DEE-E1EA-4DDF-B2DE-BD2035CA887F}</ProjectGuid>
+    <ProjectGuid>{8C333790-4E01-445C-901C-0EBEF12C52CC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>My2DArrayProject</RootNamespace>
-    <AssemblyName>My2DArrayProject</AssemblyName>
+    <RootNamespace>StudentListProject1</RootNamespace>
+    <AssemblyName>StudentListProject1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EC884DEE-E1EA-4DDF-B2DE-BD2035CA887F}</ProjectGuid>
+    <ProjectGuid>{D5B4AE5C-8E9D-4D2C-A348-1364C1AE6D31}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>My2DArrayProject</RootNamespace>
-    <AssemblyName>My2DArrayProject</AssemblyName>
+    <RootNamespace>StudentListTest</RootNamespace>
+    <AssemblyName>StudentListTest</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,11 +45,24 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\My2DArrayProject\My2DArrayProject.csproj">
+      <Project>{ec884dee-e1ea-4ddf-b2de-bd2035ca887f}</Project>
+      <Name>My2DArrayProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyArrayProject\MyArrayProject.csproj">
+      <Project>{844c684c-c55a-4c6b-a968-df0761e1414e}</Project>
+      <Name>MyArrayProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyListProject\MyListProject.csproj">
+      <Project>{87d7677e-5e2d-4858-9c0d-2514c0421333}</Project>
+      <Name>MyListProject</Name>
+    </ProjectReference>
     <ProjectReference Include="..\StudentListProject\StudentListProject.csproj">
       <Project>{16b3bdfe-c23b-435d-b2a1-571ad14ea93b}</Project>
       <Name>StudentListProject</Name>
