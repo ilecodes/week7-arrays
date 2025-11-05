@@ -1,8 +1,12 @@
-﻿
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace StudentListTest
+namespace StudentListProject2
 {
-    public class Student1
+    public class Student3
     {
         private int id;
         private string name;
@@ -28,13 +32,13 @@ namespace StudentListTest
         {
             get { return studentCount; }
         }
-        public Student()
+        public Student3()
         {
             this.name = "John Doe";
             this.age = 16;
             this.id = studentCount++;
         }
-        public Student(string StuName, int StuAge)
+        public Student3(string StuName, int StuAge)
         {
             this.name = StuName;
             this.age = StuAge;
